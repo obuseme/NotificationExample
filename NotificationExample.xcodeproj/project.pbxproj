@@ -12,6 +12,7 @@
 		414377461D1A2319001A4098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414377441D1A2319001A4098 /* Main.storyboard */; };
 		414377481D1A2319001A4098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414377471D1A2319001A4098 /* Assets.xcassets */; };
 		4143774B1D1A231A001A4098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414377491D1A231A001A4098 /* LaunchScreen.storyboard */; };
+		414377531D1A2348001A4098 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414377521D1A2348001A4098 /* NotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		414377471D1A2319001A4098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4143774A1D1A231A001A4098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4143774C1D1A231A001A4098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		414377521D1A2348001A4098 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				414377471D1A2319001A4098 /* Assets.xcassets */,
 				414377491D1A231A001A4098 /* LaunchScreen.storyboard */,
 				4143774C1D1A231A001A4098 /* Info.plist */,
+				414377521D1A2348001A4098 /* NotificationManager.swift */,
 			);
 			path = NotificationExample;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414377531D1A2348001A4098 /* NotificationManager.swift in Sources */,
 				414377431D1A2319001A4098 /* ViewController.swift in Sources */,
 				414377411D1A2319001A4098 /* AppDelegate.swift in Sources */,
 			);
